@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule tours/(.*)/(.*)/(.*)$ tours.php?request=$1&trailid=$2&start=$3 [QSA,NC,L]
+RewriteRule tours/(.*)/(.*)$ tours.php?request=$1&trailid=$2 [QSA,NC,L]
+RewriteRule rivers/(.*)/(.*)/(.*)$ rivers.php?request=$1&trailid=$2&start=$3 [QSA,NC,L]
+RewriteRule rivers/(.*)/(.*)$ rivers.php?request=$1&riverid=$2 [QSA,NC,L]
+</IfModule>
