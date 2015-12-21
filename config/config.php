@@ -7,12 +7,12 @@
 DEFINE("DEFAULT_LAND", "bg");
 DEFINE("SITE_TITLE", "");
 DEFINE("DB_HOST", "localhost");
-DEFINE("WP_DB_NAME", "terrain360wp_dev");
-DEFINE("WP_DB_USER", "t360wp");
-DEFINE("WP_DB_PASS", "q93847o56fo3bc9q");
-DEFINE("MT_DB_NAME", "master_terrain360_dev");
-DEFINE("MT_DB_USER", "maintain");
-DEFINE("MT_DB_PASS", "WSD5BcJyCYP3sT9z");
+DEFINE("WP_DB_NAME", "db_name");
+DEFINE("WP_DB_USER", "db_user");
+DEFINE("WP_DB_PASS", "db_pass");
+DEFINE("MT_DB_NAME", "mt_db_mane");
+DEFINE("MT_DB_USER", "mt_db_user");
+DEFINE("MT_DB_PASS", "mt_db_pass");
 
 DEFINE("BASEPATH", "")
 ?>
